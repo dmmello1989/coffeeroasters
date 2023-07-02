@@ -1,6 +1,7 @@
 import { Header } from "../components/Header";
 import { SectionHero } from "../components/SectionHero";
 import HomeHeroBg from "../assets/home/desktop/image-hero-coffeepress.jpg";
+import { SectionCollection } from "../components/SectionCollection";
 
 export default function Home() {
   return (
@@ -16,6 +17,8 @@ export default function Home() {
         titleSize="4.5rem"
         buttonText="Create your plan"
       />
+
+      <SectionCollection />
     </>
   );
 }
