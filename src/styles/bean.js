@@ -10,6 +10,7 @@ export const colorDKB = "hsl(231, 11%, 63%)";
 export const colorPO = "hsl(25, 94%, 86%)";
 export const colorLC = "hsl(43, 78%, 98%)";
 export const colorCT = "hsl(216, 20%, 25%)"
+export const colorCTD = "hsl(216, 17%, 21%)"
 export const colorDisabled = "hsl(25, 11%, 87%)";
 
 // Typography
