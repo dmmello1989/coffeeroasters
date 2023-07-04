@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { SectionHero } from "../components/SectionHero";
+import { Footer } from "../components/Footer";
 import HomeAboutBg from "../assets/about/desktop/image-hero-whitecup.jpg";
 
 export default function About() {
@@ -14,6 +15,7 @@ export default function About() {
         title="About us"
         titleSize="2.5rem"
       />
+      <Footer />
     </>
   );
 }

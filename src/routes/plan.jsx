@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { SectionHero } from "../components/SectionHero";
+import { Footer } from "../components/Footer";
 import HomePlanBg from "../assets/plan/desktop/image-hero-blackcup.jpg";
 
 export default function Plan() {
@@ -14,6 +15,7 @@ export default function Plan() {
         title="Create plan"
         titleSize="4.5rem"
       />
+      <Footer />
     </>
   );
 }

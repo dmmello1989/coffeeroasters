@@ -2,6 +2,7 @@ import { Header } from "../components/Header";
 import { SectionHero } from "../components/SectionHero";
 import { SectionCollection } from "../components/SectionCollection";
 import { SectionFeatured } from "../components/SectionFeatured";
+import { Footer } from "../components/Footer";
 
 import HomeHeroBg from "../assets/home/desktop/image-hero-coffeepress.jpg";
 
@@ -22,6 +23,7 @@ export default function Home() {
 
       <SectionCollection />
       <SectionFeatured />
+      <Footer />
     </>
   );
 }
