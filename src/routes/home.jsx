@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <SectionHero
+      {/* <SectionHero
         bgSize="600px"
         bgImg={HomeHeroBg}
         text="Start your mornings with the world’s best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule."
@@ -22,7 +22,7 @@ export default function Home() {
       />
 
       <SectionCollection />
-      <SectionFeatured />
+      <SectionFeatured /> */}
       <Footer />
     </>
   );
